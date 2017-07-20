@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oquelis.juan.miejercicio1.Ejercicio1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1149dp"
+        android:layout_height="629dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/marcianito_miprimer_proyecto_android"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@drawable/marcianito_miprimer_proyecto_android"
+        tools:layout_editor_absoluteY="4dp"
+        android:layout_marginStart="2dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="482dp"
+        tools:layout_editor_absoluteY="121dp"
+        tools:text="@string/texto" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        android:text="@string/Boton_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="559dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>
